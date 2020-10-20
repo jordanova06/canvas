@@ -1,0 +1,126 @@
+
+body{
+    margin: 0 auto;
+    background: url(/img/bg-paper.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-family: "Bebas Neue";
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+section{
+    width: 800px;
+    margin: 0 auto;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#center{
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbox .shapes-tools{
+    display: flex;
+    width: 50px;  
+}
+
+.toolbox.left{
+    margin-bottom: 50px;
+    height: 300px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toolbox.right{
+    margin-bottom: 20px;
+}
+
+.group .commands, .icon{
+    width: 24px;
+}   
+
+.toolbox .item:hover{
+    background-color: rgba(197, 197, 183, 0.493);
+    border-radius: 50%;
+}
+
+.active{
+    background-color: rgba(197, 197, 183, 0.493);
+    border-radius: 50%;
+}
+
+.group.commands .icon{
+    margin-top: -15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.group.commands .icon:hover{
+    background-color: rgba(197, 197, 183, 0.493);
+    border-radius: 50%;
+}
+
+.toolbox .group .item{
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.toolbox .group .item img{
+    cursor: pointer;
+}
+
+
+.toolbox .group.linewidths .item{
+    position: relative;
+}
+
+.toolbox .group.linewidths .item .linewidth{
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.group.commands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.toolbox .group.swatches .item .swatch{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+#canvas{
+    margin: 30px;
+    background-color: white;
+    box-shadow: 0px 11px 14px -3px rgba(0,0,0,0.46);
+}
+
+.color-picker{
+   visibility: hidden;
+}
+
+.group.linewidths{
+    margin-top: 20px;
+    margin-left: 20px;
+}
