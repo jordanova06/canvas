@@ -1,15 +1,16 @@
 
 body{
     margin: 0 auto;
-    background: url(/img/bg-paper.jpg);
+    background-color: #e1d9ff;
     background-size: cover;
 }
 
 h1{
-    font-family: "Bebas Neue";
+    font-family: 'Fredoka One', cursive;
     text-align: center;
     margin: 0 auto;
     margin-top: 30px;
+    color: #4C6DFF;
 }
 
 section{
@@ -50,12 +51,12 @@ section{
 }   
 
 .toolbox .item:hover{
-    background-color: rgba(197, 197, 183, 0.493);
+    background-color: #4c6dff5e;
     border-radius: 50%;
 }
 
 .active{
-    background-color: rgba(197, 197, 183, 0.493);
+    background-color: #4c6dff5e;
     border-radius: 50%;
 }
 
@@ -66,7 +67,7 @@ section{
 }
 
 .group.commands .icon:hover{
-    background-color: rgba(197, 197, 183, 0.493);
+    background-color: #4c6dff5e;
     border-radius: 50%;
 }
 
