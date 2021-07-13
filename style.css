@@ -14,15 +14,16 @@ h1{
 }
 
 section{
-    width: 800px;
+    width: 80%;
+    height: 80%;
     margin: 0 auto;
-   
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 #center{
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
